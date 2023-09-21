@@ -14,6 +14,7 @@
 .flex{
     display: flex;
     flex-direction: column;
+    font-size: 20px;
      
      
     
@@ -23,14 +24,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 8px;
+    
+    
 }
 .conteudo-secundario-paragrafo{
-    display: block;
+    display: flex;
     flex-direction: column;
-    font-size: 8px;
+    font-size: 15px;
     padding: 3px;
-    margin-top: 5px;
+    gap: 10px;
 
 }
 .conteudo-secundario-titulo{
