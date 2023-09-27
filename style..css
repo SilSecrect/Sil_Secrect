@@ -6,13 +6,18 @@
     padding: 0;
     
 }
+
 a{
     text-decoration: none;
 }
 .container{
     display: flex;
-    justify-content: space-between;
-    background-color: #706c6c;  
+    justify-content: space-around;
+    background-color: #706c6c; 
+    box-shadow: 10px 10px 8px #ad9552ad; 
+    
+    
+   
 }
 .flex{
     font-family: 'Cinzel', serif;
@@ -20,7 +25,7 @@ a{
     align-items: center;
     gap: 50px;
     margin: 15px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .home{color: rgb(251, 251, 251);}
 .sobre{ color: #ad9552}
@@ -50,12 +55,12 @@ a{
     border-top: 0.4px solid #ffff;
     padding-top: 48px;
 }
-strong{
+span{
     color: rgb(173, 149, 81);
 }
 .image{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
     margin-top: 20px;
     background-color: #706c6c;
@@ -68,41 +73,78 @@ strong{
     justify-content: center;
     font-size: 30px;
 }
-.h3{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-}
 #trampo{
     display: flex;
-    justify-content: center;
-    gap: 100px;
+    justify-content: space-around;
     margin: 35px;
+    gap: 5px;
+    align-items: center;
+      
 }
-
-.trampo:hover img{
-    
-    cursor: pointer;
-    scale: 1.2;
-    gap: 10px;
-
-}
-.paragrafo-p{
-    font-size: 30px;
-}
-.texto{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 10px;
-    margin: 30px;
-
-}
-h2{
-    margin-top: 15px;
-    color: rgb(173, 149, 81);
-}
-footer{
-    display: flex;
+.foto:hover{cursor: pointer; scale: 1.2; }
+/*
+.btn1{
+    border: none;
+    background-color: rgb(173, 149, 81); 
+   display: block;
+    height: 40px;
+    width: 45px;
     justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    z-index: +1;
 }
+.btn2{
+    border: none;
+    background-color: rgb(173, 149, 81); 
+   display: block;
+    height: 40px;
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+*/
+.container-artigo{
+    margin-top: 60px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.artigo{
+ display: flex;
+ gap: 30px;
+ padding: 20px;
+ margin-left:30px ;
+ }
+.article{
+    font-size: 20px;
+}
+.h1{
+    text-align: center;
+}
+.passo{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 20px;
+    
+
+}
+.container-teste{
+    display: flex;
+    margin: 15px;
+    padding: 6px;
+    
+}
+
+footer{
+   text-align: center;
+}
+
+ 
+
