@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Black+Ops+One&family=Cinzel&family=Exo:wght@100&family=IBM+Plex+Sans:ital,wght@1,100&family=Kalam:wght@300&family=Montserrat:wght@300&family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: #000;
+}
+.container{
+    background:  #706c6c;
+    text-align: center;
+   
+}
+.a{
+    position: absolute;
+    font-size: 35px;
+    left: 0;
+    color: white;
+    margin: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: #ad9552 ;
+}
+.form{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Cinzel', serif;
+    color: white;
+    
+}
+.form input{
+    width: 50%;
+    padding: 8px 0px;
+    margin: 8px 0px;
+    border-radius: 10px;
+    
+}
+.form input[type=text]{
+    height: 50px;
+    border-radius: 10px;
+    
+}
+button{
+    height: 30px;
+    width: 60px;
+    background: #706c6c;
+    border: none;
+    border-radius: 10px;
+    color: rgb(8, 8, 8);
+    margin: 8px;
+
+
+}
+.thanks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+div{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.passo{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+    
+
+}
+.container-teste{
+    display: flex;
+    margin: 15px;
+    padding: 6px;
+    color: white;
+    gap: 5px;
+    
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    background: #706c6c;
+    color: white;
+ }
